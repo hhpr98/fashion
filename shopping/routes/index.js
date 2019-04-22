@@ -47,6 +47,11 @@ router.get('/login', function(req, res, next) {
   res.render('login');
 });
 
+/* GET tracking. */
+router.get('/tracking', function(req, res, next) {
+    res.render('tracking');
+});
+
 /* GET contact. */
 router.get('/contact', function(req, res, next) {
     res.render('contact');
