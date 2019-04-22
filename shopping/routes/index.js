@@ -17,4 +17,17 @@ router.get('/single-product', function(req, res, next) {
   res.render('single-product');
 });
 
+/* GET checkout */
+router.get('/checkout',function (req, res, next) {
+    res.render('checkout');
+})
+
+
+/* GET login. */
+router.get('/login', function(req, res, next) {
+  res.render('login');
+});
+
+
+
 module.exports = router;
