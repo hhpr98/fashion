@@ -28,6 +28,9 @@ router.get('/login', function(req, res, next) {
   res.render('login');
 });
 
-
+/* GET contact. */
+router.get('/contact', function(req, res, next) {
+    res.render('contact');
+});
 
 module.exports = router;
