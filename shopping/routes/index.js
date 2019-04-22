@@ -32,6 +32,10 @@ router.get('/confirmation',function (req, res, next) {
     res.render('confirmation');
 })
 
+/* GET blog */
+router.get('/blog',function (req, res, next) {
+    res.render('blog');
+})
 
 /* GET login. */
 router.get('/login', function(req, res, next) {
