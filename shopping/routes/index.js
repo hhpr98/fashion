@@ -7,11 +7,6 @@ router.get('/', function(req, res, next) {
   res.render('index');
 });
 
-/* GET index.*/
-router.get('/index', function(req, res, next) {
-  res.render('index');
-});
-
 /* GET category. */
 router.get('/category', function(req, res, next) {
   res.render('category');
