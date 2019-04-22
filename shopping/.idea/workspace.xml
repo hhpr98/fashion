@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b51027a-78bb-4bd1-bd20-c7d3b667fdfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/registration.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../html_chua_dong_bo_hbs/registration.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/layout.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="115" column="80" lean-forward="true" selection-start-line="115" selection-start-column="80" selection-end-line="115" selection-end-column="80" />
+            <state relative-caret-position="255">
+              <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -156,12 +153,12 @@
       <workItem from="1555892237651" duration="3157000" />
       <workItem from="1555899976819" duration="738000" />
       <workItem from="1555907181901" duration="3360000" />
-      <workItem from="1555924186942" duration="1393000" />
+      <workItem from="1555924186942" duration="1519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8648000" />
+    <option name="totallyTimeSpent" value="8774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="29" width="1346" height="722" extended-state="0" />
@@ -353,8 +350,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="115" column="80" lean-forward="true" selection-start-line="115" selection-start-column="80" selection-end-line="115" selection-end-column="80" />
+        <state relative-caret-position="255">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
         </state>
       </provider>
     </entry>
