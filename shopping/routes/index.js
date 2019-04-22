@@ -47,9 +47,19 @@ router.get('/login', function(req, res, next) {
   res.render('login');
 });
 
+/* GET register. */
+router.get('/registration', function(req, res, next) {
+    res.render('registration');
+});
+
 /* GET tracking. */
 router.get('/tracking', function(req, res, next) {
     res.render('tracking');
+});
+
+/* GET elements. */
+router.get('/elements', function(req, res, next) {
+    res.render('elements');
 });
 
 /* GET contact. */
