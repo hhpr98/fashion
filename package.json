@@ -1,0 +1,19 @@
+{
+  "name": "fashiop_gk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhpr98/Fashiop_GK.git"
+  },
+  "author": "Hoa Ho Hieu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhpr98/Fashiop_GK/issues"
+  },
+  "homepage": "https://github.com/hhpr98/Fashiop_GK#readme"
+}
