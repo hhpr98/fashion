@@ -37,6 +37,11 @@ router.get('/blog',function (req, res, next) {
     res.render('blog');
 })
 
+/* GET blog details */
+router.get('/single-blog',function (req, res, next) {
+    res.render('single-blog');
+})
+
 /* GET login. */
 router.get('/login', function(req, res, next) {
   res.render('login');
