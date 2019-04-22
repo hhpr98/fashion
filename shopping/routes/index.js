@@ -27,6 +27,12 @@ router.get('/cart',function (req, res, next) {
     res.render('cart');
 })
 
+/* GET confirmation */
+router.get('/confirmation',function (req, res, next) {
+    res.render('confirmation');
+})
+
+
 /* GET login. */
 router.get('/login', function(req, res, next) {
   res.render('login');
