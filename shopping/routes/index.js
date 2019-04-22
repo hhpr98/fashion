@@ -17,4 +17,9 @@ router.get('/category', function(req, res, next) {
   res.render('category');
 });
 
+/* GET detail product. */
+router.get('/single-product', function(req, res, next) {
+  res.render('single-product');
+});
+
 module.exports = router;
