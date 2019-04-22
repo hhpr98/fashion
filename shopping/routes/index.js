@@ -22,6 +22,10 @@ router.get('/checkout',function (req, res, next) {
     res.render('checkout');
 })
 
+/* GET cart */
+router.get('/cart',function (req, res, next) {
+    res.render('cart');
+})
 
 /* GET login. */
 router.get('/login', function(req, res, next) {
