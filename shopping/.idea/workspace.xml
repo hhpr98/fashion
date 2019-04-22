@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b51027a-78bb-4bd1-bd20-c7d3b667fdfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +18,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/layout.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+            <state relative-caret-position="357">
+              <caret line="257" column="94" selection-start-line="257" selection-start-column="94" selection-end-line="257" selection-end-column="94" />
+              <folding>
+                <element signature="n#style#0;n#i#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,6 +52,7 @@
       <find>blog.html</find>
       <find>tracking</find>
       <find>login</find>
+      <find>about</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -76,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="29" />
     <option name="width" value="1346" />
     <option name="height" value="722" />
@@ -153,12 +156,12 @@
       <workItem from="1555892237651" duration="3157000" />
       <workItem from="1555899976819" duration="738000" />
       <workItem from="1555907181901" duration="3360000" />
-      <workItem from="1555924186942" duration="1519000" />
+      <workItem from="1555924186942" duration="2887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8774000" />
+    <option name="totallyTimeSpent" value="10142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="29" width="1346" height="722" extended-state="0" />
@@ -350,8 +353,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        <state relative-caret-position="357">
+          <caret line="257" column="94" selection-start-line="257" selection-start-column="94" selection-end-line="257" selection-end-column="94" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
