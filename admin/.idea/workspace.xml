@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b56d4a00-2a8b-4fae-af58-7b96c0d19425" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/sales.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../concept-master/dashboard-influencer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../concept-master/dashboard-sales.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../concept-master/influencer-finder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../concept-master/influencer-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/sales.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/sales.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,13 +33,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/sales.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="428" column="71" selection-start-line="428" selection-start-column="71" selection-end-line="428" selection-end-column="71" />
+            <state relative-caret-position="107">
+              <caret line="122" column="214" selection-start-line="122" selection-start-column="214" selection-end-line="122" selection-end-column="214" />
               <folding>
-                <element signature="n#div#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -57,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="348">
@@ -80,6 +72,9 @@
       <find>chart</find>
       <find>table-title</find>
       <find>j</find>
+      <find>Reven</find>
+      <find>previous</find>
+      <find>tuần này</find>
       <find>inf</find>
     </findStrings>
   </component>
@@ -98,14 +93,14 @@
         <option value="$PROJECT_DIR$/views/edit.hbs" />
         <option value="$PROJECT_DIR$/views/user.hbs" />
         <option value="$PROJECT_DIR$/views/layout.hbs" />
-        <option value="$PROJECT_DIR$/views/sales.hbs" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/sales.hbs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="151" />
-    <option name="y" value="61" />
+    <option name="x" value="50" />
+    <option name="y" value="-9" />
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
@@ -176,12 +171,12 @@
       <workItem from="1556016114019" duration="29000" />
       <workItem from="1556016374352" duration="3035000" />
       <workItem from="1556023849934" duration="4000" />
-      <workItem from="1556025746214" duration="3823000" />
+      <workItem from="1556025746214" duration="4169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6891000" />
+    <option name="totallyTimeSpent" value="7237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -306,6 +301,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -324,23 +326,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/sales.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="428" column="71" selection-start-line="428" selection-start-column="71" selection-end-line="428" selection-end-column="71" />
+        <state relative-caret-position="107">
+          <caret line="122" column="214" selection-start-line="122" selection-start-column="214" selection-end-line="122" selection-end-column="214" />
           <folding>
-            <element signature="n#div#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
         </state>
       </provider>
     </entry>
