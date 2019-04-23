@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7622047a-c05c-44cc-81af-712233a68252" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/shopping/views/elements.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/views/elements.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/views/layout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping/views/registration.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/views/registration.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/shopping/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -59,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shopping/views/login.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="237">
+              <caret line="25" column="111" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="111" />
             </state>
           </provider>
         </entry>
@@ -74,11 +73,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shopping/views/elements.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="371">
               <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shopping/views/registration.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -105,6 +113,7 @@
         <option value="$PROJECT_DIR$/shopping/views/login.hbs" />
         <option value="$PROJECT_DIR$/shopping/views/layout.hbs" />
         <option value="$PROJECT_DIR$/shopping/views/elements.hbs" />
+        <option value="$PROJECT_DIR$/shopping/views/registration.hbs" />
       </list>
     </option>
   </component>
@@ -119,7 +128,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="253" />
+    <option name="x" value="40" />
+    <option name="y" value="345" />
     <option name="width" value="1400" />
     <option name="height" value="652" />
   </component>
@@ -194,15 +204,15 @@
       <workItem from="1555942885644" duration="4050000" />
       <workItem from="1555977425285" duration="4043000" />
       <workItem from="1555991812958" duration="791000" />
-      <workItem from="1555992783386" duration="974000" />
+      <workItem from="1555992783386" duration="1744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17785000" />
+    <option name="totallyTimeSpent" value="18555000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="253" width="1400" height="652" extended-state="0" />
+    <frame x="40" y="345" width="1400" height="652" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
@@ -246,13 +256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping/views/login.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopping/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-265" />
@@ -276,6 +279,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping/views/login.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="25" column="111" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping/views/registration.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
         </state>
       </provider>
     </entry>
