@@ -72,4 +72,14 @@ router.get('/adv-find', function(req, res, next) {
     res.render('adv-find');
 });
 
+/* GET forgot-password */
+router.get('/forgot-password', function(req, res, next) {
+    res.render('forgot-password');
+});
+
+/* GET account */
+router.get('/account', function(req, res, next) {
+    res.render('account');
+});
+
 module.exports = router;
