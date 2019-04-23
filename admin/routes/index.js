@@ -21,4 +21,9 @@ router.get('/product-checkout', function(req, res, next) {
   res.render('product-checkout');
 });
 
+/* GET dashboardo-finance */
+router.get('/dashboardo-finance', function(req, res, next) {
+  res.render('dashboardo-finance');
+});
+
 module.exports = router;
