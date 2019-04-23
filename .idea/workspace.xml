@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7622047a-c05c-44cc-81af-712233a68252" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/views/user.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin/views/user.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/views/sales.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/admin/views/sales.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/shopping/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,24 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopping/views/login.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="111" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="111" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopping/views/tracking.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="95" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shopping/views/elements.hbs">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/views/user.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+            <state relative-caret-position="107">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#1272#1278#1#HTML" expanded="true" />
@@ -110,6 +92,22 @@
                 <element signature="e#3189#3195#1#HTML" expanded="true" />
                 <element signature="e#3828#3834#1#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/views/edit.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-25" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/views/sales.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="417" column="26" lean-forward="true" selection-start-line="417" selection-start-column="26" selection-end-line="417" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -148,6 +146,7 @@
         <option value="$PROJECT_DIR$/admin/views/product-single.hbs" />
         <option value="$PROJECT_DIR$/shopping/views/account.hbs" />
         <option value="$PROJECT_DIR$/admin/views/user.hbs" />
+        <option value="$PROJECT_DIR$/admin/views/sales.hbs" />
       </list>
     </option>
   </component>
@@ -162,8 +161,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="153" />
-    <option name="y" value="162" />
+    <option name="x" value="-114" />
+    <option name="y" value="237" />
     <option name="width" value="1044" />
     <option name="height" value="652" />
   </component>
@@ -233,15 +232,15 @@
       <workItem from="1555977425285" duration="4043000" />
       <workItem from="1555991812958" duration="791000" />
       <workItem from="1555992783386" duration="1744000" />
-      <workItem from="1556019111530" duration="9048000" />
+      <workItem from="1556019111530" duration="10057000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27603000" />
+    <option name="totallyTimeSpent" value="28612000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="153" y="162" width="1044" height="652" extended-state="0" />
+    <frame x="69" y="292" width="1044" height="652" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3362659" />
@@ -359,8 +358,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/views/user.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+        <state relative-caret-position="107">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#1272#1278#1#HTML" expanded="true" />
@@ -369,6 +368,18 @@
             <element signature="e#3189#3195#1#HTML" expanded="true" />
             <element signature="e#3828#3834#1#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/edit.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/sales.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="417" column="26" lean-forward="true" selection-start-line="417" selection-start-column="26" selection-end-line="417" selection-end-column="26" />
         </state>
       </provider>
     </entry>
