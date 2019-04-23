@@ -16,4 +16,9 @@ router.get('/product-single', function(req, res, next) {
   res.render('product-single');
 });
 
+/* GET product-checkout */
+router.get('/product-checkout', function(req, res, next) {
+  res.render('product-checkout');
+});
+
 module.exports = router;
