@@ -67,4 +67,9 @@ router.get('/contact', function(req, res, next) {
     res.render('contact');
 });
 
+/* GET adv-find. */
+router.get('/adv-find', function(req, res, next) {
+    res.render('adv-find');
+});
+
 module.exports = router;
