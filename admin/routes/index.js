@@ -26,6 +26,11 @@ router.get('/dashboard-finance', function(req, res, next) {
   res.render('dashboard-finance');
 });
 
+/* GET sales */
+router.get('/sales', function(req, res, next) {
+  res.render('sales');
+});
+
 /* GET user */
 router.get('/user', function(req, res, next) {
   res.render('user');
