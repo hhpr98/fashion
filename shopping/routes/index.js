@@ -77,4 +77,9 @@ router.get('/forgot-password', function(req, res, next) {
     res.render('forgot-password');
 });
 
+/* GET account */
+router.get('/account', function(req, res, next) {
+    res.render('account');
+});
+
 module.exports = router;
