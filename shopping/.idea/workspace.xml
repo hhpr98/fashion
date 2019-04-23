@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b51027a-78bb-4bd1-bd20-c7d3b667fdfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/views/single-product.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/single-product.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/checkout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/checkout.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,11 +46,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/single-product.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="331">
               <caret line="275" column="59" selection-start-line="275" selection-start-column="59" selection-end-line="275" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/checkout.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <folding>
+                <element signature="n#section#2;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,8 +79,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/category.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="433" column="62" selection-start-line="433" selection-start-column="62" selection-end-line="433" selection-end-column="62" />
+            <state relative-caret-position="532">
+              <caret line="404" selection-start-line="404" selection-end-line="433" selection-end-column="62" />
+              <folding>
+                <element signature="n#section#2;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,7 +92,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>singlr</find>
       <find>shop</find>
       <find>index</find>
       <find>contact</find>
@@ -106,6 +120,8 @@
       <find>post</find>
       <find>Lorem ipsum</find>
       <find>review</find>
+      <find>ove</find>
+      <find>Use</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,7 +131,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/views/login.hbs" />
-        <option value="$PROJECT_DIR$/views/checkout.hbs" />
         <option value="$PROJECT_DIR$/views/contact.hbs" />
         <option value="$PROJECT_DIR$/views/cart.hbs" />
         <option value="$PROJECT_DIR$/views/confirmation.hbs" />
@@ -129,6 +144,7 @@
         <option value="$PROJECT_DIR$/views/category.hbs" />
         <option value="$PROJECT_DIR$/views/layout.hbs" />
         <option value="$PROJECT_DIR$/views/single-product.hbs" />
+        <option value="$PROJECT_DIR$/views/checkout.hbs" />
       </list>
     </option>
   </component>
@@ -213,12 +229,12 @@
       <workItem from="1555924186942" duration="3540000" />
       <workItem from="1555984137659" duration="7652000" />
       <workItem from="1555998955930" duration="3322000" />
-      <workItem from="1556006518587" duration="763000" />
+      <workItem from="1556006518587" duration="3008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22532000" />
+    <option name="totallyTimeSpent" value="24777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -270,18 +286,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/views/error.hbs">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/checkout.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="232" selection-start-line="232" selection-end-line="232" />
-          <folding>
-            <element signature="n#section#0;n#!!top" />
-            <element signature="n#section#1;n#!!top" />
-            <element signature="n#section#2;n#!!top" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/vendors/animate-css/animate.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -398,13 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/category.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="433" column="62" selection-start-line="433" selection-start-column="62" selection-end-line="433" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -420,6 +417,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="275" column="59" selection-start-line="275" selection-start-column="59" selection-end-line="275" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/category.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="404" selection-start-line="404" selection-end-line="433" selection-end-column="62" />
+          <folding>
+            <element signature="n#section#2;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/checkout.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="n#section#2;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
