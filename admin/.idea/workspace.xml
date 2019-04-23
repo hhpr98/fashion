@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b56d4a00-2a8b-4fae-af58-7b96c0d19425" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -15,19 +17,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="431" column="25" lean-forward="true" selection-start-line="431" selection-start-column="25" selection-end-line="431" selection-end-column="25" />
+            <state relative-caret-position="215">
+              <caret line="302" column="103" selection-start-line="302" selection-start-column="103" selection-end-line="302" selection-end-column="103" />
               <folding>
-                <element signature="e#14927#16908#0#HTML" />
                 <element signature="n#li#3;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#li#4;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="e#26014#30577#0#HTML" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="535">
+              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/user.hbs">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -39,6 +54,8 @@
       <find>E-co</find>
       <find>end w</find>
       <find>.html</find>
+      <find>menu lev</find>
+      <find>ui e</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -52,8 +69,9 @@
         <option value="$PROJECT_DIR$/views/product-single.hbs" />
         <option value="$PROJECT_DIR$/views/product-checkout.hbs" />
         <option value="$PROJECT_DIR$/views/dashboard-finance.hbs" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/manager.hbs" />
         <option value="$PROJECT_DIR$/views/layout.hbs" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
       </list>
     </option>
   </component>
@@ -130,12 +148,12 @@
       <workItem from="1556016114019" duration="29000" />
       <workItem from="1556016374352" duration="3035000" />
       <workItem from="1556023849934" duration="4000" />
-      <workItem from="1556025746214" duration="1229000" />
+      <workItem from="1556025746214" duration="1661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4297000" />
+    <option name="totallyTimeSpent" value="4729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -222,25 +240,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="431" column="25" lean-forward="true" selection-start-line="431" selection-start-column="25" selection-end-line="431" selection-end-column="25" />
+        <state relative-caret-position="215">
+          <caret line="302" column="103" selection-start-line="302" selection-start-column="103" selection-end-line="302" selection-end-column="103" />
           <folding>
-            <element signature="e#14927#16908#0#HTML" />
             <element signature="n#li#3;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#4;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="e#26014#30577#0#HTML" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/manager.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="162" column="31" lean-forward="true" selection-end-line="270" selection-end-column="9" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#6417#6423#1#HTML" expanded="true" />
+            <element signature="e#7055#7061#1#HTML" expanded="true" />
+            <element signature="e#7694#7700#1#HTML" expanded="true" />
+            <element signature="e#8334#8340#1#HTML" expanded="true" />
+            <element signature="e#8973#8979#1#HTML" expanded="true" />
+            <element signature="e#5761#5915#0#HTML" />
+            <element signature="e#5939#6123#0#HTML" />
+            <element signature="e#6145#6358#0#HTML" />
+            <element signature="e#6383#6452#0#HTML" />
+            <element signature="e#6479#6785#0#HTML" />
+            <element signature="e#6843#6915#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user.hbs">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
