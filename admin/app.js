@@ -6,12 +6,12 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var productRouter = require('./routes/prorduct')
-var productsingleRouter = require('./routes/product-single');
-var productcheckoutRouter = require('./routes/product-checkout');
-var dashboardRouter = require('./routes/dashboard-finance');
-var salesRouter = require('./routes/sales');
-var userRouter = require('./routes/user');
+var productRouter = require('./routes/product/prorduct')
+var productsingleRouter = require('./routes/product/product-single');
+var productcheckoutRouter = require('./routes/product/product-checkout');
+var dashboardRouter = require('./routes/business/dashboard-finance');
+var salesRouter = require('./routes/business/sales');
+var userRouter = require('./routes/business/user');
 var editRouter = require('./routes/edit');
 
 
