@@ -5,18 +5,17 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
-var categoryRouter = require('./routes/category');
-var singleproductRouter = require('./routes/single-product');
-var checkoutRouter = require('./routes/checkout');
-var cartRouter = require('./routes/cart')
-var confirmationRouter = require('./routes/confirmation')
-var accountRouter = require('./routes/account')
-var advfindRouter = require('./routes/adv-find');
+var categoryRouter = require('./routes/product/category');
+var singleproductRouter = require('./routes/product/single-product');
+var checkoutRouter = require('./routes/product/checkout');
+var cartRouter = require('./routes/product/cart')
+var confirmationRouter = require('./routes/product/confirmation')
+var accountRouter = require('./routes/account/account')
+var advfindRouter = require('./routes/search/adv-find');
 var contactRouter = require('./routes/contact');
-var forgotpasswordRouter = require('./routes/forgot-password');
-var loginRouter = require('./routes/login');
-var registerRouter = require('./routes/register');
+var forgotpasswordRouter = require('./routes/account/forgot-password');
+var loginRouter = require('./routes/account/login');
+var registerRouter = require('./routes/account/register');
 var trackingRouter = require('./routes/tracking');
 
 var app = express();
@@ -32,7 +31,6 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
 app.use('/category', categoryRouter);
 app.use('/single-product', singleproductRouter);
 app.use('/checkout', checkoutRouter);

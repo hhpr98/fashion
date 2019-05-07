@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-    res.render('cart');
+    res.render('./account/forgot-password');
 });
 
 module.exports = router;
