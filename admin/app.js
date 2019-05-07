@@ -9,10 +9,10 @@ var usersRouter = require('./routes/users');
 var productRouter = require('./routes/product/prorduct')
 var productsingleRouter = require('./routes/product/product-single');
 var productcheckoutRouter = require('./routes/product/product-checkout');
-var dashboardRouter = require('./routes/business/dashboard-finance');
-var salesRouter = require('./routes/business/sales');
-var userRouter = require('./routes/business/user');
-var editRouter = require('./routes/edit');
+var dashboardRouter = require('./routes/product/dashboard-finance');
+var salesRouter = require('./routes/product/sales');
+var userRouter = require('./routes/account/user');
+var editRouter = require('./routes/account/edit');
 
 
 var app = express();
