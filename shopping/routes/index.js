@@ -7,10 +7,12 @@ router.get('/', function(req, res, next) {
   res.render('index');
 });
 
-/* GET category. */
+
+/* GET category.
 router.get('/category', function(req, res, next) {
   res.render('category');
 });
+*/
 
 /* GET detail product. */
 router.get('/single-product', function(req, res, next) {
