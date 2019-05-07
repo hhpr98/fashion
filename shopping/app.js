@@ -5,13 +5,13 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-var categoryRouter = require('./routes/product/category');
+var categoryRouter = require('./routes/category/category');
 var singleproductRouter = require('./routes/product/single-product');
 var checkoutRouter = require('./routes/product/checkout');
 var cartRouter = require('./routes/product/cart')
 var confirmationRouter = require('./routes/product/confirmation')
 var accountRouter = require('./routes/account/account')
-var advfindRouter = require('./routes/search/adv-find');
+var advfindRouter = require('./routes/product/adv-find');
 var contactRouter = require('./routes/contact');
 var forgotpasswordRouter = require('./routes/account/forgot-password');
 var loginRouter = require('./routes/account/login');
