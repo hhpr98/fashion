@@ -13,11 +13,14 @@ var cartRouter = require('./routes/cart')
 var confirmationRouter = require('./routes/confirmation')
 var blogRouter = require('./routes/blog');
 var singleblogRouter = require('./routes/single-blog');
-
-
-
-
-
+var accountRouter = require('./routes/account')
+var advfindRouter = require('./routes/adv-find');
+var contactRouter = require('./routes/contact');
+var elementsRouter = require('./routes/elements');
+var forgotpasswordRouter = require('./routes/forgot-password');
+var loginRouter = require('./routes/login');
+var registerRouter = require('./routes/register');
+var trackingRouter = require('./routes/tracking');
 
 var app = express();
 
@@ -40,6 +43,15 @@ app.use('/cart', cartRouter);
 app.use('/confirmation', confirmationRouter);
 app.use('/blog', blogRouter);
 app.use('/single-blog', singleblogRouter);
+app.use('/account', accountRouter);
+app.use('/adv-find', advfindRouter);
+app.use('/contact', contactRouter);
+app.use('/elements', elementsRouter);
+app.use('/forgot-password', forgotpasswordRouter);
+app.use('/login', loginRouter);
+app.use('/registration', registerRouter);
+app.use('/tracking', trackingRouter);
+
 
 
 // catch 404 and forward to error handler

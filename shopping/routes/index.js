@@ -45,44 +45,44 @@ router.get('/single-blog',function (req, res, next) {
     res.render('single-blog');
 })
 */
-/* GET login. */
+/* GET login.
 router.get('/login', function(req, res, next) {
   res.render('login');
 });
-
-/* GET register. */
+*/
+/* GET register.
 router.get('/registration', function(req, res, next) {
     res.render('registration');
 });
-
-/* GET tracking. */
+*/
+/* GET tracking.
 router.get('/tracking', function(req, res, next) {
     res.render('tracking');
 });
-
-/* GET elements. */
+*/
+/* GET elements.
 router.get('/elements', function(req, res, next) {
     res.render('elements');
 });
-
-/* GET contact. */
+*/
+/* GET contact.
 router.get('/contact', function(req, res, next) {
     res.render('contact');
 });
-
-/* GET adv-find. */
+*/
+/* GET adv-find.
 router.get('/adv-find', function(req, res, next) {
     res.render('adv-find');
 });
-
-/* GET forgot-password */
+*/
+/* GET forgot-password
 router.get('/forgot-password', function(req, res, next) {
     res.render('forgot-password');
 });
-
-/* GET account */
+*/
+/* GET account
 router.get('/account', function(req, res, next) {
     res.render('account');
 });
-
+*/
 module.exports = router;
