@@ -11,6 +11,8 @@ var singleproductRouter = require('./routes/single-product');
 var checkoutRouter = require('./routes/checkout');
 var cartRouter = require('./routes/cart')
 var confirmationRouter = require('./routes/confirmation')
+var blogRouter = require('./routes/blog');
+var singleblogRouter = require('./routes/single-blog');
 
 
 
@@ -36,8 +38,8 @@ app.use('/single-product', singleproductRouter);
 app.use('/checkout', checkoutRouter);
 app.use('/cart', cartRouter);
 app.use('/confirmation', confirmationRouter);
-
-
+app.use('/blog', blogRouter);
+app.use('/single-blog', singleblogRouter);
 
 
 // catch 404 and forward to error handler

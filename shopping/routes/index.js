@@ -35,16 +35,16 @@ router.get('/confirmation',function (req, res, next) {
     res.render('confirmation');
 })
 */
-/* GET blog */
+/* GET blog
 router.get('/blog',function (req, res, next) {
     res.render('blog');
 })
-
-/* GET blog details */
+*/
+/* GET blog details
 router.get('/single-blog',function (req, res, next) {
     res.render('single-blog');
 })
-
+*/
 /* GET login. */
 router.get('/login', function(req, res, next) {
   res.render('login');
