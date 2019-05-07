@@ -25,16 +25,16 @@ router.get('/checkout',function (req, res, next) {
     res.render('checkout');
 })
 */
-/* GET cart */
+/* GET cart
 router.get('/cart',function (req, res, next) {
     res.render('cart');
 })
-
-/* GET confirmation */
+*/
+/* GET confirmation
 router.get('/confirmation',function (req, res, next) {
     res.render('confirmation');
 })
-
+*/
 /* GET blog */
 router.get('/blog',function (req, res, next) {
     res.render('blog');
