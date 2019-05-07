@@ -14,7 +14,6 @@ var confirmationRouter = require('./routes/confirmation')
 var accountRouter = require('./routes/account')
 var advfindRouter = require('./routes/adv-find');
 var contactRouter = require('./routes/contact');
-var elementsRouter = require('./routes/elements');
 var forgotpasswordRouter = require('./routes/forgot-password');
 var loginRouter = require('./routes/login');
 var registerRouter = require('./routes/register');
@@ -42,7 +41,6 @@ app.use('/confirmation', confirmationRouter);
 app.use('/account', accountRouter);
 app.use('/adv-find', advfindRouter);
 app.use('/contact', contactRouter);
-app.use('/elements', elementsRouter);
 app.use('/forgot-password', forgotpasswordRouter);
 app.use('/login', loginRouter);
 app.use('/registration', registerRouter);
