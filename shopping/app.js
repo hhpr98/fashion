@@ -11,8 +11,6 @@ var singleproductRouter = require('./routes/single-product');
 var checkoutRouter = require('./routes/checkout');
 var cartRouter = require('./routes/cart')
 var confirmationRouter = require('./routes/confirmation')
-var blogRouter = require('./routes/blog');
-var singleblogRouter = require('./routes/single-blog');
 var accountRouter = require('./routes/account')
 var advfindRouter = require('./routes/adv-find');
 var contactRouter = require('./routes/contact');
@@ -41,8 +39,6 @@ app.use('/single-product', singleproductRouter);
 app.use('/checkout', checkoutRouter);
 app.use('/cart', cartRouter);
 app.use('/confirmation', confirmationRouter);
-app.use('/blog', blogRouter);
-app.use('/single-blog', singleblogRouter);
 app.use('/account', accountRouter);
 app.use('/adv-find', advfindRouter);
 app.use('/contact', contactRouter);
