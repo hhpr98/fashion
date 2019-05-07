@@ -19,11 +19,12 @@ router.get('/single-product', function(req, res, next) {
   res.render('single-product');
 });
 */
-/* GET checkout */
+
+/* GET checkout
 router.get('/checkout',function (req, res, next) {
     res.render('checkout');
 })
-
+*/
 /* GET cart */
 router.get('/cart',function (req, res, next) {
     res.render('cart');
