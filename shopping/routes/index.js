@@ -14,11 +14,11 @@ router.get('/category', function(req, res, next) {
 });
 */
 
-/* GET detail product. */
+/* GET detail product.
 router.get('/single-product', function(req, res, next) {
   res.render('single-product');
 });
-
+*/
 /* GET checkout */
 router.get('/checkout',function (req, res, next) {
     res.render('checkout');
