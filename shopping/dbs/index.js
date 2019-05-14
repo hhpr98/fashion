@@ -9,7 +9,7 @@ var conn = mysql.createConnection({
     password: ""
 });
 
-var dbs = {production: {}};
+var dbs = {production: {},category:{}};
 
 conn.connect(function(err) {
     if (err) throw err;
@@ -19,11 +19,20 @@ conn.connect(function(err) {
 
     conn.query(sql, function(err, rows, fields) {
         if (err) throw err;
-        console.log("Get dữ liệu thành công!");
+        console.log("Get dữ liệu product thành công!");
         //console.log(rows[0].TenSP);
         dbs.production = rows;
         //console.log(dbs.production);
     });
+
+    var sql2 = "select* from loaisanpham";
+    conn.query(sql2, function(err, rows) {
+        if (err) throw err;
+        console.log("Get dữ liệu category thành công!");
+        dbs.category = rows;
+        //console.log(dbs.category);
+    });
+
 });
 
 exports.dbs = dbs;
