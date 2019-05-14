@@ -6,9 +6,8 @@
             <div class="banner_content row">
                 <div class="offset-lg-2 col-lg-8">
                     <h3>Thời trang
-                        <br />Mùa đông</h3>
-                    <p>Áo len, áo dạ, chân váy vải tweed sẽ giúp các nàng không
-                        chỉ giữ ấm mà còn trở nên sành điệu hơn khi đi làm.</p>
+                        <br />đa dạng</h3>
+                    <p>Áo len, áo dạ, chân váy vải, giày dép, ở đây có đủ những gì mà bạn muốn.</p>
                     <a class="white_bg_btn" href="#">Bộ sưu tập</a>
                 </div>
             </div>
@@ -82,199 +81,30 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col col1">
-                    <div class="f_p_item">
-                        <div class="f_p_img">
-                            <img class="img-fluid" src="img/product/feature-product/f-p-1.jpg" alt="">
-                            <div class="p_icon">
-                                <a href="#">
-                                    <i class="lnr lnr-heart"></i>
-                                </a>
-                                <a href="/cart/id={{id}}">
-                                    <i class="lnr lnr-cart"></i>
-                                </a>
+                {{#each allProduct}}
+                    <div class="col col1">
+                        <div class="f_p_item">
+                            <div class="f_p_img">
+                                <img class="img-fluid" src={{this.HinhAnh}} alt="">
+                                <div class="p_icon">
+                                    <a href="/product/{{this.MaSP}}">
+                                        <i class="lnr lnr-cursor"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="lnr lnr-heart"></i>
+                                    </a>
+                                    <a href="/cart/{{this.MaSP}}">
+                                        <i class="lnr lnr-cart"></i>
+                                    </a>
+                                </div>
                             </div>
+                            <a href="#">
+                                <h4>{{this.TenSP}}</h4>
+                            </a>
+                            <h5>{{this.GiaBan}} đ</h5>
                         </div>
-                        <a href="#">
-                            <h4>Áo thun dài tay</h4>
-                        </a>
-                        <h5>150,000 đ</h5>
                     </div>
-                </div>
-                <div class="col col2">
-                    <div class="f_p_item">
-                        <div class="f_p_img">
-                            <img class="img-fluid" src="img/product/feature-product/f-p-2.jpg" alt="">
-                            <div class="p_icon">
-                                <a href="#">
-                                    <i class="lnr lnr-heart"></i>
-                                </a>
-                                <a href="/cart/id={{id}}">
-                                    <i class="lnr lnr-cart"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <h4>Áo thun dài tay</h4>
-                        </a>
-                        <h5>150,000 đ</h5>
-                    </div>
-                </div>
-                <div class="col col3">
-                    <div class="f_p_item">
-                        <div class="f_p_img">
-                            <img class="img-fluid" src="img/product/feature-product/f-p-3.jpg" alt="">
-                            <div class="p_icon">
-                                <a href="#">
-                                    <i class="lnr lnr-heart"></i>
-                                </a>
-                                <a href="/cart/id={{id}}">
-                                    <i class="lnr lnr-cart"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <h4>Áo thun dài tay</h4>
-                        </a>
-                        <h5>150,000 đ</h5>
-                    </div>
-                </div>
-                <div class="col col4">
-                    <div class="f_p_item">
-                        <div class="f_p_img">
-                            <img class="img-fluid" src="img/product/feature-product/f-p-4.jpg" alt="">
-                            <div class="p_icon">
-                                <a href="#">
-                                    <i class="lnr lnr-heart"></i>
-                                </a>
-                                <a href="/cart/id={{id}}">
-                                    <i class="lnr lnr-cart"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <h4>Áo thun dài tay</h4>
-                        </a>
-                        <h5>150,000 đ</h5>
-                    </div>
-                </div>
-                <div class="col col5">
-                    <div class="f_p_item">
-                        <div class="f_p_img">
-                            <img class="img-fluid" src="img/product/feature-product/f-p-5.jpg" alt="">
-                            <div class="p_icon">
-                                <a href="#">
-                                    <i class="lnr lnr-heart"></i>
-                                </a>
-                                <a href="/cart/id={{id}}">
-                                    <i class="lnr lnr-cart"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <h4>Áo thun dài tay</h4>
-                        </a>
-                        <h5>150,000 đ</h5>
-                    </div>
-                </div>
-
-                <div class="col col6">
-                    <div class="f_p_item">
-                        <div class="f_p_img">
-                            <img class="img-fluid" src="img/product/feature-product/f-p-5.jpg" alt="">
-                            <div class="p_icon">
-                                <a href="#">
-                                    <i class="lnr lnr-heart"></i>
-                                </a>
-                                <a href="/cart/id={{id}}">
-                                    <i class="lnr lnr-cart"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <h4>Áo thun dài tay</h4>
-                        </a>
-                        <h5>150,000 đ</h5>
-                    </div>
-                </div>
-
-                <div class="col col7">
-                    <div class="f_p_item">
-                        <div class="f_p_img">
-                            <img class="img-fluid" src="img/product/feature-product/f-p-4.jpg" alt="">
-                            <div class="p_icon">
-                                <a href="#">
-                                    <i class="lnr lnr-heart"></i>
-                                </a>
-                                <a href="/cart/id={{id}}">
-                                    <i class="lnr lnr-cart"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <h4>Áo thun dài tay</h4>
-                        </a>
-                        <h5>150,000 đ</h5>
-                    </div>
-                </div>
-
-                <div class="col col8">
-                    <div class="f_p_item">
-                        <div class="f_p_img">
-                            <img class="img-fluid" src="img/product/feature-product/f-p-5.jpg" alt="">
-                            <div class="p_icon">
-                                <a href="#">
-                                    <i class="lnr lnr-heart"></i>
-                                </a>
-                                <a href="/cart/id={{id}}">
-                                    <i class="lnr lnr-cart"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <h4>Áo thun dài tay</h4>
-                        </a>
-                        <h5>150,000 đ</h5>
-                    </div>
-                </div>
-                <div class="col col9">
-                    <div class="f_p_item">
-                        <div class="f_p_img">
-                            <img class="img-fluid" src="img/product/feature-product/f-p-1.jpg" alt="">
-                            <div class="p_icon">
-                                <a href="#">
-                                    <i class="lnr lnr-heart"></i>
-                                </a>
-                                <a href="/cart/id={{id}}">
-                                    <i class="lnr lnr-cart"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <h4>Áo thun dài tay</h4>
-                        </a>
-                        <h5>150,000 đ</h5>
-                    </div>
-                </div>
-                <div class="col col10">
-                    <div class="f_p_item">
-                        <div class="f_p_img">
-                            <img class="img-fluid" src="img/product/feature-product/f-p-4.jpg" alt="">
-                            <div class="p_icon">
-                                <a href="#">
-                                    <i class="lnr lnr-heart"></i>
-                                </a>
-                                <a href="/cart/id={{id}}">
-                                    <i class="lnr lnr-cart"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <h4>Áo thun dài tay</h4>
-                        </a>
-                        <h5>150,000 đ</h5>
-                    </div>
-                </div>
+                {{/each}}
             </div>
 
             <div class="row">
