@@ -32,7 +32,7 @@ conn.connect(function(err) {
         dbs.category = rows;
         //console.log(dbs.category);
     });
-
 });
+
 
 exports.dbs = dbs;
