@@ -9,7 +9,7 @@ var conn = mysql.createConnection({
     password: ""
 });
 
-var dbs = {production: {},category:{}};
+var dbs = {production: {},category:{},user:{}};
 
 conn.connect(function(err) {
     if (err) throw err;
@@ -31,6 +31,14 @@ conn.connect(function(err) {
         console.log("Get dữ liệu category thành công!");
         dbs.category = rows;
         //console.log(dbs.category);
+    });
+
+    var sql3 = "select* from nguoidung";
+    conn.query(sql3, function(err, rows) {
+        if (err) throw err;
+        console.log("Get dữ liệu user thành công!");
+        dbs.user = rows;
+        //console.log(dbs.user);
     });
 });
 

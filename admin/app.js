@@ -9,7 +9,6 @@ var productRouter = require('./routes/prorduct')
 var productsingleRouter = require('./routes/product-single');
 var productcheckoutRouter = require('./routes/product-checkout');
 var dashboardRouter = require('./routes/dashboard-finance');
-var salesRouter = require('./routes/sales');
 var userRouter = require('./routes/user');
 var editRouter = require('./routes/edit');
 
@@ -31,7 +30,6 @@ app.use('/product', productRouter);
 app.use('/product-single', productsingleRouter);
 app.use('/product-checkout', productcheckoutRouter);
 app.use('/dashboard-finance',dashboardRouter);
-app.use('/sales', salesRouter);
 app.use('/user',userRouter);
 app.use('/edit',editRouter);
 
