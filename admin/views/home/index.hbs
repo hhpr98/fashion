@@ -9,13 +9,13 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="page-header">
-                        <h2 class="pageheader-title">Mẫu Dashboard</h2>
+                        <h2 class="pageheader-title">Tổng quan</h2>
                         <p class="pageheader-text"> </p>
                         <div class="page-breadcrumb">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Mẫu Dashboard</li>
+                                    <li class="breadcrumb-item"><a href="/" class="breadcrumb-link">Tổng quan</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Tổng quan</li>
                                 </ol>
                             </nav>
                         </div>
@@ -92,7 +92,7 @@
 
                     <!-- recent orders  -->
                     <!-- ============================================================== -->
-                    <div class="col-xl-9 col-lg-12 col-md-6 col-sm-12 col-12">
+                    <div class="col-xl-12 col-lg-12 col-md-6 col-sm-12 col-12">
                         <div class="card">
                             <h5 class="card-header">Đơn hàng gần đây</h5>
                             <div class="card-body p-0">
@@ -100,7 +100,7 @@
                                     <table class="table">
                                         <thead class="bg-light">
                                         <tr class="border-0">
-                                            <th class="border-0">#</th>
+                                            <th class="border-0">STT</th>
                                             <th class="border-0">Ảnh</th>
                                             <th class="border-0">Tên sản phầm</th>
                                             <th class="border-0">Mã sản phẩm</th>
@@ -112,61 +112,21 @@
                                         </tr>
                                         </thead>
                                         <tbody>
+                                        {{#each productData}}
                                         <tr>
-                                            <td>1</td>
+                                            <td>{{this.MaSP}}</td>
                                             <td>
-                                                <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                                <div class="m-r-10"><img src={{this.HinhAnh}} alt="" class="rounded" width="45"></div>
                                             </td>
-                                            <td>Sản phẩm #1 </td>
-                                            <td>id000001 </td>
-                                            <td>20</td>
-                                            <td>$80.00</td>
-                                            <td>27-08-2018 01:22:12</td>
-                                            <td>Nguyễn Quang Hải </td>
-                                            <td><span class="badge-dot badge-brand mr-1"></span>Đã giao hàng </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>
-                                                <div class="m-r-10"><img src="assets/images/product-pic-2.jpg" alt="user" class="rounded" width="45"></div>
-                                            </td>
-                                            <td>Sản phẩm #2 </td>
-                                            <td>id000002 </td>
-                                            <td>12</td>
-                                            <td>$180.00</td>
-                                            <td>25-08-2018 21:12:56</td>
-                                            <td>Phan Văn Đức </td>
+                                            <td>{{this.TenSP}}</td>
+                                            <td>{{this.MaSP}}</td>
+                                            <td>{{this.SoLuong}}</td>
+                                            <td>{{this.GiaBan}} VNĐ</td>
+                                            <td>{{this.NgayTiepNhan}}</td>
+                                            <td>Khách hàng {{this.MaSP}}</td>
                                             <td><span class="badge-dot badge-success mr-1"></span>Đã giao hàng </td>
                                         </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>
-                                                <div class="m-r-10"><img src="assets/images/product-pic-3.jpg" alt="user" class="rounded" width="45"></div>
-                                            </td>
-                                            <td>Sản phẩm #3 </td>
-                                            <td>id000003 </td>
-                                            <td>23</td>
-                                            <td>$820.00</td>
-                                            <td>24-08-2018 14:12:77</td>
-                                            <td>Đoàn Văn Hậu </td>
-                                            <td><span class="badge-dot badge-success mr-1"></span>Đã giao hàng </td>
-                                        </tr>
-                                        <tr>
-                                            <td>4</td>
-                                            <td>
-                                                <div class="m-r-10"><img src="assets/images/product-pic-4.jpg" alt="user" class="rounded" width="45"></div>
-                                            </td>
-                                            <td>Sản phẩm #4 </td>
-                                            <td>id000004 </td>
-                                            <td>34</td>
-                                            <td>$340.00</td>
-                                            <td>23-08-2018 09:12:35</td>
-                                            <td>Quế Ngọc Hải </td>
-                                            <td><span class="badge-dot badge-success mr-1"></span>Đã giao hàng </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="9"><a href="#" class="btn btn-outline-light float-right">Thông tin chi tiết</a></td>
-                                        </tr>
+                                        {{/each}}
                                         </tbody>
                                     </table>
                                 </div>
@@ -176,33 +136,6 @@
                     <!-- ============================================================== -->
                     <!-- end recent orders  -->
 
-
-                    <!-- ============================================================== -->
-                    <!-- ============================================================== -->
-                    <!-- customer acquistion  -->
-                    <!-- ============================================================== -->
-                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="card">
-                            <h5 class="card-header">Khách hàng mua lại</h5>
-                            <div class="card-body">
-                                <div class="ct-chart ct-golden-section" style="height: 354px;"></div>
-                                <div class="text-center">
-                                            <span class="legend-item mr-2">
-                                                    <span class="fa-xs text-primary mr-1 legend-tile"><i class="fa fa-fw fa-square-full"></i></span>
-                                            <span class="legend-text">Quay lại</span>
-                                            </span>
-                                    <span class="legend-item mr-2">
-
-                                                    <span class="fa-xs text-secondary mr-1 legend-tile"><i class="fa fa-fw fa-square-full"></i></span>
-                                            <span class="legend-text">Mua lần đầu</span>
-                                            </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ============================================================== -->
-                    <!-- end customer acquistion  -->
-                    <!-- ============================================================== -->
                 </div>
                 <div class="row">
                     <!-- ============================================================== -->
@@ -254,57 +187,6 @@
                     <!-- ============================================================== -->
                     <!-- end product sales  -->
                     <!-- ============================================================== -->
-                    <div class="col-xl-3 col-lg-12 col-md-6 col-sm-12 col-12">
-                        <!-- ============================================================== -->
-                        <!-- top perfomimg  -->
-                        <!-- ============================================================== -->
-                        <div class="card">
-                            <h5 class="card-header">Chiến dịch thực hiện hàng đầu</h5>
-                            <div class="card-body p-0">
-                                <div class="table-responsive">
-                                    <table class="table no-wrap p-table">
-                                        <thead class="bg-light">
-                                        <tr class="border-0">
-                                            <th class="border-0">Chiến dịch</th>
-                                            <th class="border-0">Lượt truy cập</th>
-                                            <th class="border-0">Doanh thu</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>Chiến dịch #1</td>
-                                            <td>98,789 </td>
-                                            <td>80,000,000 đ</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Chiến dịch #2</td>
-                                            <td>2,789 </td>
-                                            <td>6,000,000 đ</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Chiến dịch #3</td>
-                                            <td>1,459 </td>
-                                            <td>900,000 đ</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Chiến dịch #4</td>
-                                            <td>5,035 </td>
-                                            <td>12,000,000 đ</td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="3">
-                                                <a href="#" class="btn btn-outline-light float-right">Chi tiết</a>
-                                            </td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- ============================================================== -->
-                        <!-- end top perfomimg  -->
-                        <!-- ============================================================== -->
-                    </div>
                 </div>
 
                 <div class="row">
@@ -418,97 +300,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-5 col-lg-6 col-md-6 col-sm-12 col-12">
-                        <!-- ============================================================== -->
-                        <!-- social source  -->
-                        <!-- ============================================================== -->
-                        <div class="card">
-                            <h5 class="card-header"> Bán theo nguồn mạng xã hội</h5>
-                            <div class="card-body p-0">
-                                <ul class="social-sales list-group list-group-flush">
-                                    <li class="list-group-item social-sales-content"><span class="social-sales-icon-circle facebook-bgcolor mr-2"><i class="fab fa-facebook-f"></i></span><span class="social-sales-name">Facebook</span><span class="social-sales-count text-dark">120 </span>
-                                    </li>
-                                    <li class="list-group-item social-sales-content"><span class="social-sales-icon-circle twitter-bgcolor mr-2"><i class="fab fa-twitter"></i></span><span class="social-sales-name">Twitter</span><span class="social-sales-count text-dark">99 </span>
-                                    </li>
-                                    <li class="list-group-item social-sales-content"><span class="social-sales-icon-circle instagram-bgcolor mr-2"><i class="fab fa-instagram"></i></span><span class="social-sales-name">Instagram</span><span class="social-sales-count text-dark">76 </span>
-                                    </li>
-                                    <li class="list-group-item social-sales-content"><span class="social-sales-icon-circle pinterest-bgcolor mr-2"><i class="fab fa-pinterest-p"></i></span><span class="social-sales-name">Pinterest</span><span class="social-sales-count text-dark">56 </span>
-                                    </li>
-                                    <li class="list-group-item social-sales-content"><span class="social-sales-icon-circle googleplus-bgcolor mr-2"><i class="fab fa-google-plus-g"></i></span><span class="social-sales-name">Google Plus</span><span class="social-sales-count text-dark">36 </span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="card-footer text-center">
-                                <a href="#" class="btn-primary-link">Hiện chi tiết</a>
-                            </div>
-                        </div>
-                        <!-- ============================================================== -->
-                        <!-- end social source  -->
-                        <!-- ============================================================== -->
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                        <!-- ============================================================== -->
-                        <!-- sales traffice source  -->
-                        <!-- ============================================================== -->
-                        <div class="card">
-                            <h5 class="card-header"> Bán theo nguồn phương tiện</h5>
-                            <div class="card-body p-0">
-                                <ul class="traffic-sales list-group list-group-flush">
-                                    <li class="traffic-sales-content list-group-item "><span class="traffic-sales-name">Chỉ đường</span><span class="traffic-sales-amount">$4000.00  <span class="icon-circle-small icon-box-xs text-success ml-4 bg-success-light"><i class="fa fa-fw fa-arrow-up"></i></span><span class="ml-1 text-success">5.86%</span></span>
-                                    </li>
-                                    <li class="traffic-sales-content list-group-item"><span class="traffic-sales-name">Tìm kiếm<span class="traffic-sales-amount">$3123.00  <span class="icon-circle-small icon-box-xs text-success ml-4 bg-success-light"><i class="fa fa-fw fa-arrow-up"></i></span><span class="ml-1 text-success">5.86%</span></span>
-                                                </span>
-                                    </li>
-                                    <li class="traffic-sales-content list-group-item"><span class="traffic-sales-name">Xã hội<span class="traffic-sales-amount ">$3099.00  <span class="icon-circle-small icon-box-xs text-success ml-4 bg-success-light"><i class="fa fa-fw fa-arrow-up"></i></span><span class="ml-1 text-success">5.86%</span></span>
-                                                </span>
-                                    </li>
-                                    <li class="traffic-sales-content list-group-item"><span class="traffic-sales-name">Giới thiệu<span class="traffic-sales-amount ">$2220.00   <span class="icon-circle-small icon-box-xs text-danger ml-4 bg-danger-light"><i class="fa fa-fw fa-arrow-down"></i></span><span class="ml-1 text-danger">4.02%</span></span>
-                                                </span>
-                                    </li>
-                                    <li class="traffic-sales-content list-group-item "><span class="traffic-sales-name">Email<span class="traffic-sales-amount">$1567.00   <span class="icon-circle-small icon-box-xs text-danger ml-4 bg-danger-light"><i class="fa fa-fw fa-arrow-down"></i></span><span class="ml-1 text-danger">3.86%</span></span>
-                                                </span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="card-footer text-center">
-                                <a href="#" class="btn-primary-link">Hiện chi tiết</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ============================================================== -->
-                    <!-- end sales traffice source  -->
-                    <!-- ============================================================== -->
-                    <!-- ============================================================== -->
-                    <!-- sales traffic country source  -->
-                    <!-- ============================================================== -->
-                    <div class="col-xl-3 col-lg-12 col-md-6 col-sm-12 col-12">
-                        <div class="card">
-                            <h5 class="card-header">Bán hàng theo nguồn lưu lượng quốc gia</h5>
-                            <div class="card-body p-0">
-                                <ul class="country-sales list-group list-group-flush">
-                                    <li class="country-sales-content list-group-item"><span class="mr-2"><i class="flag-icon flag-icon-us" title="us" id="us"></i> </span>
-                                        <span class="">Hoa kì</span><span class="float-right text-dark">78%</span>
-                                    </li>
-                                    <li class="list-group-item country-sales-content"><span class="mr-2"><i class="flag-icon flag-icon-ca" title="ca" id="ca"></i></span><span class="">Canada</span><span class="float-right text-dark">7%</span>
-                                    </li>
-                                    <li class="list-group-item country-sales-content"><span class="mr-2"><i class="flag-icon flag-icon-ru" title="ru" id="ru"></i></span><span class="">Nga</span><span class="float-right text-dark">4%</span>
-                                    </li>
-                                    <li class="list-group-item country-sales-content"><span class=" mr-2"><i class="flag-icon flag-icon-in" title="in" id="in"></i></span><span class="">Ấn Độ</span><span class="float-right text-dark">12%</span>
-                                    </li>
-                                    <li class="list-group-item country-sales-content"><span class=" mr-2"><i class="flag-icon flag-icon-fr" title="fr" id="fr"></i></span><span class="">Pháp</span><span class="float-right text-dark">16%</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="card-footer text-center">
-                                <a href="#" class="btn-primary-link">Hiện chi tiết</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ============================================================== -->
-                    <!-- end sales traffice country source  -->
-                    <!-- ============================================================== -->
                 </div>
             </div>
         </div>
