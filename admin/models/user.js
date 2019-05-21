@@ -2,7 +2,12 @@ const { dbs } = require('../dbs');
 
 // get all
 const allUser = async() => {
-    const results = await dbs.user;
-    return results;
+    return await dbs.user;
 };
 exports.allUser=allUser;
+
+// delete by id
+const deleteUser = async(id) => {
+    return await dbs.user.delete(id);
+};
+exports.deleteUser=deleteUser;

@@ -18,5 +18,7 @@ router.get('/', function(req, res, next) {
 const userController = require('../controllers/userController');
 router.get('/', userController.userIndex);
 router.get('/add',userController.userAdd);
+router.get('/edit',userController.userEdit);
+router.get('/delete/:id',userController.userDelete);
 
 module.exports = router;
