@@ -1,5 +1,0 @@
-// Require controller modules.
-var category_controller = require('../controllers/categoryController');
-var product_controller = require('../controllers/productController');
-var account_controller = require('../controllers/accountController');
-
