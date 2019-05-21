@@ -9,7 +9,7 @@ var conn = mysql.createConnection({
     password: ""
 });
 
-var dbs = {production: {},category:{}};
+var dbs = {production: {},category:{},user:{}};
 
 conn.connect(function(err) {
     if (err) throw err;
