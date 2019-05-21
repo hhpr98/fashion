@@ -7,7 +7,7 @@
                     <h2>Quản lí <b>người dùng</b></h2>
                 </div>
                 <div class="col-sm-7">
-                    <a href="#" class="btn btn-primary"><i class="material-icons">&#xe02e;</i><span>Thêm người dùng</span></a>
+                    <a href="/user/add" class="btn btn-primary"><i class="material-icons">&#xe02e;</i><span>Thêm người dùng</span></a>
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@
                 <td>{{this.DiaChi}}</td>
                 <td>{{this.SoDienThoai}}</td>
                 <td>
-                    <a href="#" class="edit" title="Sửa" data-toggle="tooltip"><i class="material-icons">&#xe3c9;</i></a>
+                    <a href="/user/edit/{{this.MaNguoiDung}}" class="edit" title="Sửa" data-toggle="tooltip"><i class="material-icons">&#xe3c9;</i></a>
                     <a href="#" class="delete" title="Xóa" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
                 </td>
             </tr>
