@@ -9,7 +9,7 @@ var conn = mysql.createConnection({
     password: ""
 });
 
-var dbs = {production: {},category:{},user:{}};
+var dbs = {production: {},category:{},user:{},account:{}};
 
 conn.connect(function(err) {
     if (err) throw err;
@@ -44,7 +44,7 @@ conn.connect(function(err) {
     conn.query(sql4, function(err, rows) {
         if (err) throw err;
         console.log("Get dữ liệu taikhoan thành công!");
-        dbs.user = rows;
+        dbs.account = rows;
         //console.log(dbs.user);
     });
 });
