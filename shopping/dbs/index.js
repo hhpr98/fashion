@@ -3,10 +3,10 @@ var mysql = require('mysql');
 console.log('Get connection ...');
 
 var conn = mysql.createConnection({
-    database: 'fashion_shop',
+    database: 'Fashion_Shop',
     host: "localhost",
     user: "root",
-    password: ""
+    password: "Niemtin20111998@"
 });
 
 var dbs = {production: {},category:{}};

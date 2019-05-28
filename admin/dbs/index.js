@@ -40,6 +40,14 @@ conn.connect(function(err) {
         dbs.user = rows;
         //console.log(dbs.user);
     });
+    var sql4 = "select* from taikhoan";
+    conn.query(sql4, function(err, rows) {
+        if (err) throw err;
+        console.log("Get dữ liệu taikhoan thành công!");
+        dbs.user = rows;
+        //console.log(dbs.user);
+    });
 });
+
 
 exports.dbs = dbs;
