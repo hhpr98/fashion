@@ -3,13 +3,13 @@ var mysql = require('mysql');
 console.log('Get connection ...');
 
 var conn = mysql.createConnection({
-    database: 'Fashion_Shop',
+    database: 'fashion_shop',
     host: "localhost",
     user: "root",
-    password: "Niemtin20111998@"
+    password: ""
 });
 
-var dbs = {production: {},category:{}};
+var dbs = {production: {},category:{},account:{}};
 
 conn.connect(function(err) {
     if (err) throw err;
@@ -30,6 +30,13 @@ conn.connect(function(err) {
         if (err) throw err;
         console.log("Get dữ liệu category thành công!");
         dbs.category = rows;
+        //console.log(dbs.category);
+    });
+    var sql3 = "select* from taikhoan";
+    conn.query(sql3, function(err, rows) {
+        if (err) throw err;
+        console.log("Get dữ liệu account thành công!");
+        dbs.account = rows;
         //console.log(dbs.category);
     });
 });
