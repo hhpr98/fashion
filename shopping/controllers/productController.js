@@ -1,3 +1,5 @@
+
+/*
 var Product = require('../models/product');
 
 // Display list of all Product
@@ -38,4 +40,13 @@ exports.product_update_get = function(req, res) {
 // Handle Product update on POST.
 exports.product_update_post = function(req, res) {
     res.send('NOT IMPLEMENTED');
+};
+*/
+
+const product = require('../models/product');
+const category = require('../models/category');
+
+exports.productIndex = async (req, res, next) => {
+    const productData = await product.allProduct();
+    res.render('product/product', {productData});
 };

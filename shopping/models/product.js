@@ -15,3 +15,4 @@ const detailProduct = async (id) => {
     return results[0];
 };
 exports.detailProduct = detailProduct;
+

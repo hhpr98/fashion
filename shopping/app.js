@@ -17,7 +17,7 @@ var forgotpasswordRouter = require('./routes/forgot-password');
 var loginRouter = require('./routes/login');
 var registerRouter = require('./routes/register');
 var trackingRouter = require('./routes/tracking');
-
+var productRouter = require('./routes/product');
 var app = express();
 
 // view engine setup
@@ -43,7 +43,7 @@ app.use('/forgot-password', forgotpasswordRouter);
 app.use('/login', loginRouter);
 app.use('/registration', registerRouter);
 app.use('/tracking', trackingRouter);
-
+app.use('/product', productRouter);
 
 
 // catch 404 and forward to error handler
