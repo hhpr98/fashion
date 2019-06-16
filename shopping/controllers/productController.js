@@ -11,5 +11,5 @@ exports.productDetail = async (req, res, next) => {
 
 exports.productSearch = async (req, res, next) => {
     console.log("Vào search");
-    res.render('product/adv-find');
+    res.render('product/search');
 };
