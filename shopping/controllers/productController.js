@@ -11,5 +11,5 @@ exports.productDetail = async (req, res, next) => {
 };
 
 exports.productSearch = async (req, res, next) => {
-    res.render('product/search');
+    res.render('product/find');
 };
