@@ -9,23 +9,15 @@ var conn = mysql.createConnection({
     password: ""
 });
 
+// get all
 var dbs = {production: {}};
-
-conn.connect(function(err) {
+var sql = "select* from sanpham";
+conn.query(sql, function(err, results) {
     if (err) throw err;
-    //console.log("Kết nối thành công!"); // Test kết nối thành công (nháy chuột phải và Run để test kết nối)
-
-    var sql = "select* from sanpham";
-
-    conn.query(sql, function(err, results) {
-        if (err) throw err;
-        //console.log("Get dữ liệu product thành công!");
-        dbs.production = results;
-    });
+    //console.log("Get dữ liệu product thành công!");
+    dbs.production = results;
 });
 
-
-// get all
 const allProduct = async() => {
     const results = await dbs.production;
     return results;
@@ -33,13 +25,15 @@ const allProduct = async() => {
 exports.allProduct=allProduct;
 
 // get by id
+var detail = {};
 const detailProduct = async (id) => {
-    var sql = "select* from sanpham where MaSP="+id.toString();
-    conn.query(sql, function(err, results) {
+    var sql1 = "select* from sanpham where MaSP="+id.toString();
+    conn.query(sql1, function(err, results) {
         if (err) throw err;
-        console.log(results);
-        return results;
+        detail=results;
     });
+    const res = await detail;
+    return res;
 };
 exports.detailProduct = detailProduct;
 
