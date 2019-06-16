@@ -5,12 +5,10 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-var singleproductRouter = require('./routes/single-product');
 var checkoutRouter = require('./routes/checkout');
 var cartRouter = require('./routes/cart')
 var confirmationRouter = require('./routes/confirmation')
 var accountRouter = require('./routes/account')
-var advfindRouter = require('./routes/adv-find');
 var contactRouter = require('./routes/contact');
 var forgotpasswordRouter = require('./routes/forgot-password');
 var loginRouter = require('./routes/login');
@@ -30,12 +28,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/single-product', singleproductRouter);
 app.use('/checkout', checkoutRouter);
 app.use('/cart', cartRouter);
 app.use('/confirmation', confirmationRouter);
 app.use('/account', accountRouter);
-app.use('/adv-find', advfindRouter);
 app.use('/contact', contactRouter);
 app.use('/forgot-password', forgotpasswordRouter);
 app.use('/login', loginRouter);
