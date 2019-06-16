@@ -1,6 +1,6 @@
 var mysql = require('mysql');
 
-console.log('Đang kết nối ...');
+//console.log('Đang kết nối ...');
 
 var conn = mysql.createConnection({
     database: 'fashion_shop',
@@ -21,7 +21,7 @@ conn.connect(function(err) {
 
     conn.query(sql, function(err, results) {
         if (err) throw err;
-        console.log("Get dữ liệu product thành công!");
+        //console.log("Get dữ liệu product thành công!");
         dbs.production = results;
     });
 });
