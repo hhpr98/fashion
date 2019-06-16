@@ -11,9 +11,6 @@ var cartRouter = require('./routes/cart')
 var confirmationRouter = require('./routes/confirmation')
 var accountRouter = require('./routes/account')
 var contactRouter = require('./routes/contact');
-var forgotpasswordRouter = require('./routes/forgot-password');
-var loginRouter = require('./routes/login');
-var registerRouter = require('./routes/register');
 var trackingRouter = require('./routes/tracking');
 var productRouter = require('./routes/product');
 var app = express();
@@ -36,9 +33,6 @@ app.use('/cart', cartRouter);
 app.use('/confirmation', confirmationRouter);
 app.use('/account', accountRouter);
 app.use('/contact', contactRouter);
-app.use('/forgot-password', forgotpasswordRouter);
-app.use('/login', loginRouter);
-app.use('/registration', registerRouter);
 app.use('/tracking', trackingRouter);
 app.use('/product', productRouter);
 
