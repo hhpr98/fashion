@@ -2,7 +2,8 @@ const product = require('../models/product');
 
 exports.productIndex = async (req, res, next) => {
     const productData = await product.allProduct();
-    res.render('product/product', {productData});
+    const categoryData = await product.allCategory();
+    res.render('product/product', {productData,categoryData});
 };
 
 exports.productDetail = async (req, res, next) => {

@@ -10,12 +10,17 @@ var conn = mysql.createConnection({
 });
 
 // get all
-var dbs = {production: {}};
+var dbs = {production: {},category:{}};
 var sql = "select* from sanpham";
 conn.query(sql, function(err, results) {
     if (err) throw err;
     //console.log("Get dữ liệu product thành công!");
     dbs.production = results;
+});
+var sql2 = "select* from loaisanpham";
+conn.query(sql2, function(err, results) {
+    if (err) throw err;
+    dbs.category = results;
 });
 
 const allProduct = async() => {
@@ -23,6 +28,12 @@ const allProduct = async() => {
     return results;
 };
 exports.allProduct=allProduct;
+
+const allCategory = async()=>{
+    const results = await dbs.category;
+    return results;
+}
+exports.allCategory=allCategory;
 
 // get by id
 var detail = {};
