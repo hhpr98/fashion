@@ -8,9 +8,9 @@ exports.productIndex = async (req, res, next) => {
 };
 
 exports.productDetail = async (req, res, next) => {
-    res.render('product/single-product');
+    res.render('product/product-single');
 };
 
 exports.productCheckout= async (req, res, next) => {
-    res.render('product/check-out');
+    res.render('product/product-checkout');
 };
