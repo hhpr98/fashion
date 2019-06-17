@@ -1,4 +1,4 @@
-const product = require('../models/account');
+const account = require('../models/account');
 
 exports.profileAccount = async (req, res, next) => {
     res.render('account/account');
@@ -6,6 +6,7 @@ exports.profileAccount = async (req, res, next) => {
 
 exports.loginAccount = async (req, res, next) => {
     res.render('account/login');
+
 };
 
 exports.registerAccount = async (req, res, next) => {

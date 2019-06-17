@@ -7,8 +7,8 @@ exports.productIndex = async (req, res, next) => {
 };
 
 exports.productDetail = async (req, res, next) => {
-    const pDetail = await product.detailProduct(req.params.id);
-    res.render('product/single-product',{pDetail});
+    const pDetail1 = await product.detailProduct(req.params.id);
+    res.render('product/single-product',{pDetail1});
 };
 
 exports.productSearch = async (req, res, next) => {
