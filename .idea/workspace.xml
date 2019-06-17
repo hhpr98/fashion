@@ -1,67 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7622047a-c05c-44cc-81af-712233a68252" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/dbs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/models/category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/models/product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/a2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/disabled-check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/disabled-radio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/f1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/f2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/f3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/f4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/f5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/f6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/f7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/f8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/g1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/g2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/g3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/g4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/g5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/g6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/g7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/g8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/primary-check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/primary-radio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/success-check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/success-radio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/user1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/public/img/elements/user2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/routes/account/account.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/routes/account/forgot-password.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/routes/account/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/routes/account/register.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/routes/category/category.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/routes/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/routes/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/routes/product/adv-find.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/routes/product/cart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/routes/product/checkout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/routes/product/confirmation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/routes/product/single-product.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/routes/tracking.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/routes/tracking.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/views/contact.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/shopping/views/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/views/product/cart.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/views/product/checkout.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/views/product/confirmation.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping/views/tracking.hbs" beforeDir="false" />
-    </list>
+    <list default="true" id="7622047a-c05c-44cc-81af-712233a68252" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/shopping/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,23 +15,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopping/models/category.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shopping/models/product.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="21" selection-end-line="16" selection-end-column="38" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopping/views/index.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1215" />
           </provider>
         </entry>
       </file>
@@ -107,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/models/category.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            <state relative-caret-position="105">
+              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -116,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shopping/dbs/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-196">
+            <state relative-caret-position="105">
               <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
@@ -125,31 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/dbs/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
+            <state relative-caret-position="75">
               <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/routes/account/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="41" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/routes/product/prorduct.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -175,7 +80,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/admin" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -365,17 +270,17 @@
       <workItem from="1557236924377" duration="1128000" />
       <workItem from="1557238384146" duration="311000" />
       <workItem from="1558422516852" duration="1996000" />
+      <workItem from="1560687025406" duration="57000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47470000" />
+    <option name="totallyTimeSpent" value="47527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="159" y="135" width="1044" height="652" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3362659" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3362659" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -389,7 +294,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32857144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -401,25 +306,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/shopping/routes/register.js" />
     <entry file="file://$PROJECT_DIR$/shopping/routes/account.js" />
-    <entry file="file://$PROJECT_DIR$/admin/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/routes/users.js" />
     <entry file="file://$PROJECT_DIR$/admin/views/product/product.hbs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/shopping/routes/product/category.js" />
     <entry file="file://$PROJECT_DIR$/shopping/routes/search/adv-find.js" />
-    <entry file="file://$PROJECT_DIR$/admin/views/account/user.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/account/user.hbs" />
     <entry file="file://$PROJECT_DIR$/shopping/views/account/account.hbs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -430,12 +323,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/product/dashboard-finance.hbs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/account/edit.hbs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/product/dashboard-finance.hbs" />
+    <entry file="file://$PROJECT_DIR$/admin/views/account/edit.hbs" />
     <entry file="file://$PROJECT_DIR$/shopping/routes/category/category.js" />
     <entry file="file://$PROJECT_DIR$/admin/app.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -444,14 +333,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping/controllers/accountController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping/controllers/categoryController.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping/controllers/accountController.js" />
+    <entry file="file://$PROJECT_DIR$/shopping/controllers/categoryController.js" />
     <entry file="file://$PROJECT_DIR$/shopping/controllers/productController.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -474,15 +357,9 @@
     <entry file="file://$PROJECT_DIR$/shopping/routes/product/single-product.js" />
     <entry file="file://$PROJECT_DIR$/shopping/routes/product/confirmation.js" />
     <entry file="file://$PROJECT_DIR$/shopping/routes/product/checkout.js" />
-    <entry file="file://$PROJECT_DIR$/2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/2.txt" />
+    <entry file="file://$PROJECT_DIR$/3.txt" />
+    <entry file="file://$PROJECT_DIR$/4.txt" />
     <entry file="file://$PROJECT_DIR$/shopping/routes/account/account.js" />
     <entry file="file://$PROJECT_DIR$/shopping/routes/account/login.js" />
     <entry file="file://$PROJECT_DIR$/shopping/routes/account/register.js" />
@@ -501,27 +378,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/routes/account/edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/routes/product/dashboard-finance.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/routes/product/sales.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/routes/account/edit.js" />
+    <entry file="file://$PROJECT_DIR$/admin/routes/product/dashboard-finance.js" />
+    <entry file="file://$PROJECT_DIR$/admin/routes/product/sales.js" />
     <entry file="file://$PROJECT_DIR$/shopping/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -529,13 +388,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/routes/product/product-checkout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/routes/product/product-checkout.js" />
     <entry file="file://$PROJECT_DIR$/shopping/routes/tracking.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -543,58 +396,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/routes/product/product-single.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/routes/account/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="41" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/routes/product/prorduct.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1215" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping/dbs/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/dbs/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/routes/product/product-single.js" />
+    <entry file="file://$PROJECT_DIR$/admin/routes/account/user.js" />
+    <entry file="file://$PROJECT_DIR$/admin/routes/product/prorduct.js" />
+    <entry file="file://$PROJECT_DIR$/1.txt" />
+    <entry file="file://$PROJECT_DIR$/shopping/views/index.hbs" />
+    <entry file="file://$PROJECT_DIR$/shopping/models/category.js" />
     <entry file="file://$PROJECT_DIR$/shopping/models/product.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="21" selection-end-line="16" selection-end-column="38" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopping/models/category.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/models/product.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -603,10 +416,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shopping/dbs/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/dbs/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/models/category.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        <state relative-caret-position="105">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
     </entry>
