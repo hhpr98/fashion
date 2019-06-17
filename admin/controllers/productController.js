@@ -6,3 +6,11 @@ exports.productIndex = async (req, res, next) => {
     const categoryData = await category.allCategory();
     res.render('product/product', {productData,categoryData});
 };
+
+exports.productDetail = async (req, res, next) => {
+    res.render('product/single-product');
+};
+
+exports.productCheckout= async (req, res, next) => {
+    res.render('product/check-out');
+};

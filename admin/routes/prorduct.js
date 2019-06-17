@@ -10,5 +10,7 @@ router.get('/', function(req, res, next) {
 
 const productController = require('../controllers/productController');
 router.get('/', productController.productIndex);
+router.get('/detail/:id',productController.productDetail);
+router.get('/checkout',productController.productCheckout);
 
 module.exports = router;
